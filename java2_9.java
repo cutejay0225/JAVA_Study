@@ -7,14 +7,14 @@ public class java2_9 {
 		int c;
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("»óÇ° °¡°İÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ìƒí’ˆ ê°€ê²©ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 		a = scanner.nextInt();
-		System.out.print("ÇÒÀÎ·üÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("í• ì¸ë¥ ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 		b = scanner.nextInt();
 		c = (a - (a*1/100*b));
-		System.out.println("»óÇ°°¡°İ: " + a);
-		System.out.println("ÇÒÀÎÀ²: " + b + "%");
-		System.out.println("¼¼ÀÏ°¡°İ: " + c);
+		System.out.println("ìƒí’ˆê°€ê²©: " + a);
+		System.out.println("í• ì¸ìœ¨: " + b + "%");
+		System.out.println("ì„¸ì¼ê°€ê²©: " + c);
 		
 	}
 
