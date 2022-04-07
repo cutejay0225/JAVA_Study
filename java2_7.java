@@ -1,25 +1,25 @@
 package java2_7;
-import java.util.*; // import ¼±¾ğ
+import java.util.*; // import ì„ ì–¸
 
-public class java2_7 { // »ç¿ëÀÚ Á¤ÀÇ ¸Ş¼­µå
+public class java2_7 { // ì‚¬ìš©ì ì •ì˜ ë©”ì„œë“œ
 	public static void main(String[] srgs) {
 		int a;
 		int b;	
-		// º¯¼ö ¼±¾ğ
+		// ë³€ìˆ˜ ì„ ì–¸
 		Scanner scanner = new Scanner(System.in);	
-		// ½ºÄ³³Ê °´Ã¼ »ı¼º
-		System.out.print("µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");	
-		// Å°º¸µå ÀÔ·Â ¸Ş½ÃÁö
+		// ìŠ¤ìºë„ˆ ê°ì²´ ìƒì„±
+		System.out.print("ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");	
+		// í‚¤ë³´ë“œ ì…ë ¥ ë©”ì‹œì§€
 		a = scanner.nextInt();
 		b = scanner.nextInt();	
-		// Å°º¸µå·Î ÀÔ·ÂÇÑ 2°³ÀÇ ÀÚ·á Á¤¼ö·Î ÀĞ¾î¼­ º¯¼ö¿¡ ÀúÀå
+		// í‚¤ë³´ë“œë¡œ ì…ë ¥í•œ 2ê°œì˜ ìë£Œ ì •ìˆ˜ë¡œ ì½ì–´ì„œ ë³€ìˆ˜ì— ì €ì¥
 		
 		System.out.println("a + b = " + (a+b));
 		System.out.println("a - b = " + (a-b));
 		System.out.println("a * b = " + (a*b));
 		System.out.println("a / b = " + (a/b));
 		System.out.println("a % b = " + (a%b));
-		// °á°ú¸¦ ¸ğ´ÏÅÍ¿¡ Ãâ·Â
+		// ê²°ê³¼ë¥¼ ëª¨ë‹ˆí„°ì— ì¶œë ¥
 		
 	}
 	
